@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\openSources\\androidprojects\\GraduationProject\\VendingUIV3\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\openSources\\androidprojects\\GraduationProject\\VendingUIV3\\platforms\\android\\app\\build\\generated\\res\\resValues\\debug\\values\\generated.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "162",
+                        "endColumns": "89",
+                        "endOffsets": "247"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "89",
+                        "endOffsets": "140"
+                    }
+                },
+                {
+                    "source": "D:\\openSources\\androidprojects\\GraduationProject\\VendingUIV3\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "163,55,104",
+                        "endColumns": "63,48,58",
+                        "endOffsets": "222,99,158"
+                    },
+                    "to": {
+                        "startLines": "3,4,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "145,209,258",
+                        "endColumns": "63,48,58",
+                        "endOffsets": "204,253,312"
+                    }
+                }
+            ]
+        }
+    ]
+}

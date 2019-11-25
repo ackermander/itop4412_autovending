@@ -1,0 +1,3 @@
+选择得到一台终端下的所有货品:
+SELECT * FROM goods_describe AS a, goods_terminal_mapping AS b, terminals_describe AS c 
+WHERE b.good_id = a.good_id AND b.terminal_id = c.terminal_id;

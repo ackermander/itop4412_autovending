@@ -1,0 +1,11 @@
+CREATE TABLE `administrators` (
+  `ad_id` int(11) NOT NULL AUTO_INCREMENT,
+  `ad_name` varchar(10) NOT NULL,
+  `ad_auth` tinyint(4) NOT NULL,
+  `ad_usr` varchar(45) NOT NULL,
+  `ad_psw` varchar(45) NOT NULL,
+  `ad_reg_dat` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `ad_last_sign` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`ad_id`),
+  UNIQUE KEY `ad_usr_UNIQUE` (`ad_usr`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;

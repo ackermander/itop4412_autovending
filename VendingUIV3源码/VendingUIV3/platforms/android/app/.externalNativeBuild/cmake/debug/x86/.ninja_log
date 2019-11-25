@@ -1,0 +1,9 @@
+# ninja log v5
+1	439	0	CMakeFiles/ctrl.dir/src/main/jni/controller.c.o	fb3d8ba8a22ff7c2
+440	1118	0	../../../../build/intermediates/cmake/debug/obj/x86/libctrl.so	23910420eb6de348
+2	308	0	CMakeFiles/ctrl.dir/src/main/jni/controller.c.o	fb3d8ba8a22ff7c2
+308	493	0	../../../../build/intermediates/cmake/debug/obj/x86/libctrl.so	23910420eb6de348
+16	247	0	CMakeFiles/ctrl.dir/src/main/jni/controller.c.o	fb3d8ba8a22ff7c2
+247	1178	0	../../../../build/intermediates/cmake/debug/obj/x86/libctrl.so	23910420eb6de348
+4	356	0	CMakeFiles/ctrl.dir/src/main/jni/controller.c.o	fb3d8ba8a22ff7c2
+356	659	0	../../../../build/intermediates/cmake/debug/obj/x86/libctrl.so	23910420eb6de348

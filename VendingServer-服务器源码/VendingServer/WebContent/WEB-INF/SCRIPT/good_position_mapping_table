@@ -1,0 +1,12 @@
+CREATE TABLE `good_position_mapping` (
+  `position_id` int(11) NOT NULL AUTO_INCREMENT,
+  `mapping_id` int(11) NOT NULL DEFAULT '-1',
+  `position_statu` tinyint(4) NOT NULL,
+  `x` tinyint(4) NOT NULL,
+  `y` tinyint(4) NOT NULL,
+  `terminal_id` int(11) NOT NULL,
+  `good_id` int(11) NOT NULL,
+  `stock` int(11) NOT NULL,
+  PRIMARY KEY (`position_id`,`mapping_id`),
+  UNIQUE KEY `position_id_UNIQUE` (`position_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=30 DEFAULT CHARSET=utf8;

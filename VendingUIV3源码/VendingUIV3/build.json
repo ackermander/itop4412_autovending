@@ -1,0 +1,18 @@
+{
+    "android": {
+        "debug": {
+            "keystore": "../acmdkey.jks",
+            "storePassword": "123456",
+            "alias": "acmddevkey",
+            "password" : "123456",
+            "keystoreType": "jks"
+        },
+        "release": {
+            "keystore": "../acmdkey.jks",
+            "storePassword": "123456",
+            "alias": "acmddevkey",
+            "password" : "123456",
+            "keystoreType": "jks"
+        }
+    }
+}

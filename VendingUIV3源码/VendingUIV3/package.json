@@ -1,0 +1,36 @@
+{
+  "name": "edu.acmd.vendingui",
+  "version": "1.0.0",
+  "displayName": "VendingUIV2",
+  "cordova": {
+    "platforms": [
+      "browser",
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-console": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-code-push": {},
+      "cordova-plugin-testpl": {}
+    }
+  },
+  "dependencies": {
+    "code-push": "^2.0.4",
+    "cordova": "^8.0.0",
+    "cordova-android": "^7.0.0",
+    "cordova-browser": "~5.0.3",
+    "cordova-plugin-code-push": "^1.11.7",
+    "cordova-plugin-compat": "^1.2.0",
+    "cordova-plugin-console": "~1.0.1",
+    "cordova-plugin-device": "~2.0.1",
+    "cordova-plugin-dialogs": "^2.0.1",
+    "cordova-plugin-file": "git+https://github.com/apache/cordova-plugin-file.git#4.3.3",
+    "cordova-plugin-file-transfer": "git+https://github.com/apache/cordova-plugin-file-transfer.git#1.6.3",
+    "cordova-plugin-statusbar": "~1.0.1",
+    "cordova-plugin-testpl": "file:../plugins/cordova-plugin-testpl",
+    "cordova-plugin-whitelist": "~1.2.0",
+    "cordova-plugin-zip": "^3.1.0"
+  }
+}

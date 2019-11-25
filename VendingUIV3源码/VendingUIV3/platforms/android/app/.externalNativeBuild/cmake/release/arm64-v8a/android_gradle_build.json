@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"D:/openSources/androidprojects/GraduationProject/VendingUIV3/platforms/android/app/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"D:\\android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\openSources\\androidprojects\\GraduationProject\\VendingUIV3\\platforms\\android\\app\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target clean"
+	],
+	"libraries" : 
+	{
+		"ctrl-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "ctrl",
+			"buildCommand" : "D:\\android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\openSources\\androidprojects\\GraduationProject\\VendingUIV3\\platforms\\android\\app\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target ctrl",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android --gcc-toolchain=D:/android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/android/sdk/ndk-bundle/sysroot -Dctrl_EXPORTS  -isystem D:/android/sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/openSources/androidprojects/GraduationProject/VendingUIV3/platforms/android/app/src/main/jni/controller.c",
+					"workingDirectory" : "D:/openSources/androidprojects/GraduationProject/VendingUIV3/platforms/android/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "D:/openSources/androidprojects/GraduationProject/VendingUIV3/platforms/android/app/build/intermediates/cmake/release/obj/arm64-v8a/libctrl.so",
+			"toolchain" : "3806728449"
+		}
+	},
+	"toolchains" : 
+	{
+		"3806728449" : 
+		{
+			"cCompilerExecutable" : "D:/android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

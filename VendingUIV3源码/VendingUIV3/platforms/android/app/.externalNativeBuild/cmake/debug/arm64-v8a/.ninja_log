@@ -1,0 +1,9 @@
+# ninja log v5
+1	113	0	CMakeFiles/ctrl.dir/src/main/jni/controller.c.o	b5d59550e98b9b73
+115	176	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libctrl.so	8b93e524a1313bb2
+3	296	0	CMakeFiles/ctrl.dir/src/main/jni/controller.c.o	b5d59550e98b9b73
+296	617	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libctrl.so	8b93e524a1313bb2
+37	312	0	CMakeFiles/ctrl.dir/src/main/jni/controller.c.o	b5d59550e98b9b73
+312	695	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libctrl.so	8b93e524a1313bb2
+114	426	0	CMakeFiles/ctrl.dir/src/main/jni/controller.c.o	b5d59550e98b9b73
+426	803	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libctrl.so	8b93e524a1313bb2

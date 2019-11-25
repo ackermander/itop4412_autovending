@@ -1,0 +1,11 @@
+CREATE TABLE `checks_detail` (
+  `check_id` int(11) NOT NULL AUTO_INCREMENT,
+  `check_name` varchar(50) NOT NULL,
+  `check_amount` float unsigned NOT NULL,
+  `terminal_id` varchar(30) NOT NULL,
+  `pay_statu` int(11) NOT NULL DEFAULT '-1' COMMENT '-1 表示未支付\n0表示正在支付\n1表示已支付',
+  `create_time` mediumtext,
+  `good` int(11) NOT NULL,
+  PRIMARY KEY (`check_id`),
+  UNIQUE KEY `check_name_UNIQUE` (`check_name`)
+) ENGINE=InnoDB AUTO_INCREMENT=143 DEFAULT CHARSET=utf8;

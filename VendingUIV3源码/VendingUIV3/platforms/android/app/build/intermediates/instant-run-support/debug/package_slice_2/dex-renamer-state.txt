@@ -1,0 +1,4 @@
+#Sat Mar 17 13:10:24 CST 2018
+base.0=D\:\\openSources\\androidprojects\\GraduationProject\\VendingUIV3\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\41
+renamed.0=classes.dex
+file.0=D\:\\openSources\\androidprojects\\GraduationProject\\VendingUIV3\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\41\\classes.dex

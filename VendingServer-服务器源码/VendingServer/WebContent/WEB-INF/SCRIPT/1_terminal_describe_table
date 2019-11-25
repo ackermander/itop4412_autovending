@@ -1,0 +1,10 @@
+CREATE TABLE `terminals_describe` (
+  `terminal_id` int(11) NOT NULL AUTO_INCREMENT,
+  `terminal_nbr` varchar(10) DEFAULT NULL,
+  `terminal_psi` varchar(10) DEFAULT NULL,
+  `terminal_uuid` varchar(45) NOT NULL,
+  `terminal_serial` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`terminal_id`),
+  UNIQUE KEY `terminal_id_UNIQUE` (`terminal_id`),
+  UNIQUE KEY `terminal_nbr_UNIQUE` (`terminal_nbr`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='描述终端';

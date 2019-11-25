@@ -1,0 +1,3 @@
+D:/openSources/androidprojects/GraduationProject/VendingUIV3/platforms/android/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/ctrl.dir
+D:/openSources/androidprojects/GraduationProject/VendingUIV3/platforms/android/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/edit_cache.dir
+D:/openSources/androidprojects/GraduationProject/VendingUIV3/platforms/android/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/rebuild_cache.dir

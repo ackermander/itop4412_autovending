@@ -1,0 +1,9 @@
+CREATE TABLE `goods_describe` (
+  `good_id` int(11) NOT NULL AUTO_INCREMENT,
+  `good_name` varchar(10) DEFAULT NULL,
+  `good_price` float DEFAULT NULL,
+  `url_id` int(11) NOT NULL,
+  `good_describe` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`good_id`),
+  UNIQUE KEY `good_id_UNIQUE` (`good_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8 COMMENT='描述货品信息';

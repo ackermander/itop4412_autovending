@@ -1,0 +1,7 @@
+DELIMITER $$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `position_pdu`(IN xx INT, IN yy INT,IN tmlid INT,IN gdid INT, IN stocks INT)
+BEGIN
+	INSERT INTO good_position_mapping (position_id, position_statu, x, y, terminal_id, good_id, stock) VALUES (0,0,xx,yy,tmlid,gdid,stocks);
+    UPDATE good_position_mapping SET position_id = mapping_id WHERE terminal_id = tmlid AND x = xx AND y = yy;
+END$$
+DELIMITER ;

@@ -1,0 +1,9 @@
+c3p0.automaticTestTable=con_test
+c3p0.driverClass=com.mysql.jdbc.Driver
+c3p0.jdbcUrl=jdbc:mysql://localhost:3306/new_schema?useSSL=false
+c3p0.user=root
+c3p0.password=acmd
+c3p0.checkoutTimeout=30000
+c3p0.idleConnectionTestPeriod=30
+c3p0.maxStatements=151
+c3p0.maxIdleTime=1800

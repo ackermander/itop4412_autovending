@@ -1,0 +1,25 @@
+# ninja log v5
+0	843	0	CMakeFiles/ctrl.dir/src/main/jni/controller.c.o	3fcbf62af28d4f5b
+844	1613	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libctrl.so	d39c5f2911c0b10a
+4	361	0	CMakeFiles/ctrl.dir/src/main/jni/controller.c.o	3fcbf62af28d4f5b
+361	520	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libctrl.so	d39c5f2911c0b10a
+18	1590	0	CMakeFiles/ctrl.dir/src/main/jni/controller.c.o	3fcbf62af28d4f5b
+1590	2749	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libctrl.so	d39c5f2911c0b10a
+3	257	0	CMakeFiles/ctrl.dir/src/main/jni/controller.c.o	3fcbf62af28d4f5b
+257	356	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libctrl.so	d39c5f2911c0b10a
+4	259	0	CMakeFiles/ctrl.dir/src/main/jni/controller.c.o	3fcbf62af28d4f5b
+259	354	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libctrl.so	d39c5f2911c0b10a
+4	218	0	CMakeFiles/ctrl.dir/src/main/jni/controller.c.o	3fcbf62af28d4f5b
+218	331	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libctrl.so	d39c5f2911c0b10a
+4	297	0	CMakeFiles/ctrl.dir/src/main/jni/controller.c.o	3fcbf62af28d4f5b
+297	430	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libctrl.so	d39c5f2911c0b10a
+4	3055	0	CMakeFiles/ctrl.dir/src/main/jni/controller.c.o	3fcbf62af28d4f5b
+3055	4889	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libctrl.so	d39c5f2911c0b10a
+7	244	0	CMakeFiles/ctrl.dir/src/main/jni/controller.c.o	3fcbf62af28d4f5b
+244	351	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libctrl.so	d39c5f2911c0b10a
+5	196	0	CMakeFiles/ctrl.dir/src/main/jni/controller.c.o	3fcbf62af28d4f5b
+196	306	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libctrl.so	d39c5f2911c0b10a
+4	274	0	CMakeFiles/ctrl.dir/src/main/jni/controller.c.o	3fcbf62af28d4f5b
+274	399	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libctrl.so	d39c5f2911c0b10a
+4	255	0	CMakeFiles/ctrl.dir/src/main/jni/controller.c.o	3fcbf62af28d4f5b
+255	369	0	../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/libctrl.so	d39c5f2911c0b10a

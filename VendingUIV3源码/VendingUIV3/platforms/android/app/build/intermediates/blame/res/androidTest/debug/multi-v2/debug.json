@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\openSources\\androidprojects\\GraduationProject\\VendingUIV3\\platforms\\android\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "D:\\openSources\\androidprojects\\GraduationProject\\VendingUIV3\\platforms\\android\\app\\build\\generated\\res\\resValues\\androidTest\\debug\\values\\generated.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "162",
+                        "endColumns": "89",
+                        "endOffsets": "247"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "89",
+                        "endOffsets": "140"
+                    }
+                }
+            ]
+        }
+    ]
+}

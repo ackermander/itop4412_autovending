@@ -1,0 +1,41 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\openSources\\androidprojects\\GraduationProject\\VendingUIV3\\platforms\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "D:\\openSources\\androidprojects\\GraduationProject\\VendingUIV3\\platforms\\android\\app\\build\\generated\\res\\resValues\\release\\values\\generated.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "164",
+                        "endColumns": "89",
+                        "endOffsets": "249"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "89",
+                        "endOffsets": "140"
+                    }
+                },
+                {
+                    "source": "D:\\openSources\\androidprojects\\GraduationProject\\VendingUIV3\\platforms\\android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1",
+                        "startColumns": "-1,-1,-1",
+                        "startOffsets": "-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "3,4,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "145,209,258",
+                        "endColumns": "63,48,58",
+                        "endOffsets": "204,253,312"
+                    }
+                }
+            ]
+        }
+    ]
+}

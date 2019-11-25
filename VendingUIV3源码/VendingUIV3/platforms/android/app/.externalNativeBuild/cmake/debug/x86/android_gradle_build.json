@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"D:/openSources/androidprojects/GraduationProject/VendingUIV3/platforms/android/app/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"D:\\android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\openSources\\androidprojects\\GraduationProject\\VendingUIV3\\platforms\\android\\app\\.externalNativeBuild\\cmake\\debug\\x86 --target clean"
+	],
+	"libraries" : 
+	{
+		"ctrl-Debug-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "ctrl",
+			"buildCommand" : "D:\\android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\openSources\\androidprojects\\GraduationProject\\VendingUIV3\\platforms\\android\\app\\.externalNativeBuild\\cmake\\debug\\x86 --target ctrl",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android --gcc-toolchain=D:/android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/windows-x86_64 --sysroot=D:/android/sdk/ndk-bundle/sysroot -Dctrl_EXPORTS  -isystem D:/android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -D__ANDROID_API__=14 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "D:/openSources/androidprojects/GraduationProject/VendingUIV3/platforms/android/app/src/main/jni/controller.c",
+					"workingDirectory" : "D:/openSources/androidprojects/GraduationProject/VendingUIV3/platforms/android/app/.externalNativeBuild/cmake/debug/x86"
+				}
+			],
+			"output" : "D:/openSources/androidprojects/GraduationProject/VendingUIV3/platforms/android/app/build/intermediates/cmake/debug/obj/x86/libctrl.so",
+			"toolchain" : "3806728449"
+		}
+	},
+	"toolchains" : 
+	{
+		"3806728449" : 
+		{
+			"cCompilerExecutable" : "D:/android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

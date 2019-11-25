@@ -1,0 +1,7 @@
+CREATE TABLE `good_image` (
+  `img_id` int(11) NOT NULL AUTO_INCREMENT,
+  `img_url` varchar(100) NOT NULL,
+  `img_name` varchar(45) NOT NULL,
+  PRIMARY KEY (`img_id`),
+  UNIQUE KEY `img_id_UNIQUE` (`img_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;

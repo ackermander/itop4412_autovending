@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-testpl" version="1.1.2" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>TestPlugin</name>
+    <js-module name="cordova-plugin-testpl" src="www/cordova-plugin-testpl.js">
+        <clobbers target="cordova.plugins.cordova-plugin-testpl" />
+    </js-module>
+    <!--platform：支持的平台-->  
+    <platform name="android">  
+    <!--插件的配置信息，build的时候会添加到res/xml/config.xml 文件中-->  
+        <config-file parent="/*" target="res/xml/config.xml">  
+            <feature name="TestPlugin">  
+                <param name="android-package" value="edu.acmd.vendingui.common.TestPlugin"/>  
+            </feature>  
+        </config-file>  
+        <!-- 可以定义自己的一些权限信息，build后会添加到主配置文件中 -->  
+         <source-file src="src/android/common/TestPlugin.java" target-dir="src/edu/acmd/vendingui/common"/>  
+    </platform>  
+</plugin>

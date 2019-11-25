@@ -1,0 +1,14 @@
+CREATE TABLE `goods_terminal_mapping` (
+  `mapping_id` int(11) NOT NULL AUTO_INCREMENT,
+  `terminal_id` int(11) NOT NULL,
+  `good_id` int(11) NOT NULL,
+  `good_price` float DEFAULT NULL,
+  `good_stock` int(11) NOT NULL,
+  `good_psi` int(11) DEFAULT NULL,
+  `url_id` int(11) NOT NULL,
+  PRIMARY KEY (`mapping_id`,`terminal_id`,`good_id`),
+  KEY `good_id_idx` (`good_id`),
+  KEY `terminal_id_idx` (`terminal_id`),
+  CONSTRAINT `good_id_fk` FOREIGN KEY (`good_id`) REFERENCES `goods_describe` (`good_id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `terminal_id_fk` FOREIGN KEY (`terminal_id`) REFERENCES `terminals_describe` (`terminal_id`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8 COMMENT='描述终端下有什么货品';

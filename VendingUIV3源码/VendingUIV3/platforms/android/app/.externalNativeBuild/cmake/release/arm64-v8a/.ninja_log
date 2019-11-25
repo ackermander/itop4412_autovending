@@ -1,0 +1,3 @@
+# ninja log v5
+1	405	0	CMakeFiles/ctrl.dir/src/main/jni/controller.c.o	a04985726357388a
+406	982	0	../../../../build/intermediates/cmake/release/obj/arm64-v8a/libctrl.so	92fe18167b6b9659
