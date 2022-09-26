@@ -17,7 +17,7 @@
     }
   },
   "dependencies": {
-    "code-push": "^2.0.4",
+    "code-push": "^4.0.5",
     "cordova": "^8.0.0",
     "cordova-android": "^7.0.0",
     "cordova-browser": "~5.0.3",
